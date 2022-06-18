@@ -1,0 +1,51 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+}
+
+.left h1{
+    color: #ffffff;
+}
+.left{
+    align-self: center;
+    font-size: bold;
+}
+
+.right .alert p{
+    padding: 10px;
+    background-color: rgb(88, 13, 138);
+    color: #ffffff;
+     border-radius: 5px;
+}
+.right .card input{
+    background-color: white;
+    margin: 10px;
+    width: 80%;
+    padding: 10px;
+}
+.right .card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.right .card button{
+    background-color: green;
+    width: 90%;
+    padding: 10px;
+}
+.right .card a {
+    text-decoration: none;
+    color: pink;  
+}
